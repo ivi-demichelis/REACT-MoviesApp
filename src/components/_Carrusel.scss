@@ -1,0 +1,24 @@
+@import "config";
+.slick-slider {
+	width: 80%;
+	margin: auto;
+	.slick-prev:before,
+	.slick-next:before {
+		color: $violeta-claro;
+	}
+  .slick-dots li button:before{
+    color: $violeta-claro;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .container-carruselDos {
+		width: 80% !important;
+	}
+	.card-carruselDos {
+		height: 300px !important;
+	}
+	.slick-track{
+		height: 350px !important;
+	}
+}

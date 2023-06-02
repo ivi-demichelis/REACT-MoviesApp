@@ -1,0 +1,30 @@
+@media screen and (max-width:600px) {
+	.Card-pelicula {
+		width: 180px !important;
+		height: 300px !important;
+		.imagen-pelicula {
+			height: 210px !important;
+		}
+	}
+}
+@media screen and (max-width:500px) {
+	.Card-pelicula {
+		width: 210px !important;
+		height: 380px !important;
+		.imagen-pelicula {
+			height: 280px !important;
+		}
+	}
+	.container {
+		.Card-pelicula {
+			width: 120px !important;
+			height: 240px !important;
+			.imagen-pelicula {
+				height: 180px !important;
+			}
+			h6 {
+				font-size: 16px;
+			}
+		}
+	}
+}
